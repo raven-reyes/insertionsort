@@ -1,6 +1,6 @@
 import java.util.Arrays;
-public class InsertionSort {
-	public static void insertionSort(int arr[], int n) {
+public class insertionSort {
+	public static void InsertionSort(int arr[], int n) {
 		//the time complexity for this algorithm is O(n*n) because of the two loops 
 		//the for loop will be called n times from 1 to n, and for every time the for loop is called,
 		//the while  loop in worst case will decrement from n-1 to 0 hence O(n*n)
