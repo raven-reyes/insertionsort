@@ -29,7 +29,7 @@ public class insertionSort {
 	public static void main(String[] args) {
 		int n = 6;
 		int arr [] = {5,4,10,1,6,2};
-		insertionSort(arr,n);
+		InsertionSort(arr,n);
 		System.out.println(Arrays.toString(arr));
 		// TODO Auto-generated method stub
 
